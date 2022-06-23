@@ -1,0 +1,23 @@
+{
+  "name": "to-do-list-back-blueedtech-",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thais-Mont/to-do-list-back-blueedtech-.git"
+  },
+  "keywords": [],
+  "author": "Thaís Monteiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thais-Mont/to-do-list-back-blueedtech-/issues"
+  },
+  "homepage": "https://github.com/Thais-Mont/to-do-list-back-blueedtech-#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
