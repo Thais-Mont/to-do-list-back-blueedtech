@@ -7,5 +7,4 @@ router.post('/create', controllerTarefas.createTarefaController);
 router.put('/update/:id', controllerTarefas.updateTarefaController);
 router.delete('/delete/:id', controllerTarefas.deleteTarefaController);
 
-
 module.exports = router;

@@ -40,7 +40,6 @@ const createTarefaService = (novaTarefa) => {
   return novaTarefa;
 };
 
-
 const updateTarefaService = (id, tarefaEdit) => {
   tarefaEdit['id'] = id;
   const tarefaIndex = tarefas.findIndex((tarefa) => tarefa.id == id);
@@ -48,20 +47,17 @@ const updateTarefaService = (id, tarefaEdit) => {
   return tarefaEdit;
 };
 
-
 const deleteTarefaService = (id) => {
   const tarefaIndex = tarefas.findIndex((tarefa) => tarefa.id == id);
-  if(tarefaIndex > 0) {
-  return tarefas.splice(tarefaIndex, 1);
+  if (tarefaIndex > 0) {
+    return tarefas.splice(tarefaIndex, 1);
   }
 };
-
-
 
 module.exports = {
   findAllTarefasService,
   findByIdTarefaService,
   createTarefaService,
   updateTarefaService,
-  deleteTarefaService
+  deleteTarefaService,
 };
