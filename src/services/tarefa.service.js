@@ -56,13 +56,6 @@ const deleteTarefaService = (id) => {
   }
 };
 
-const deletePaleta = (id) => {
-  paletas.forEach((paleta, index) => {
-    if (paleta.id === id) {
-      paletas.splice(index, 1);
-    }
-  });
-};
 
 
 module.exports = {
