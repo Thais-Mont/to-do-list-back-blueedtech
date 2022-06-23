@@ -51,7 +51,17 @@ const updateTarefaService = (id, tarefaEdit) => {
 
 const deleteTarefaService = (id) => {
   const tarefaIndex = tarefas.findIndex((tarefa) => tarefa.id == id);
+  if(tarefaIndex > 0) {
   return tarefas.splice(tarefaIndex, 1);
+  }
+};
+
+const deletePaleta = (id) => {
+  paletas.forEach((paleta, index) => {
+    if (paleta.id === id) {
+      paletas.splice(index, 1);
+    }
+  });
 };
 
 
