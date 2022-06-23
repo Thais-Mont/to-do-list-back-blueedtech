@@ -49,6 +49,9 @@ abrir servidor local http://localhost:3000
 ![getById](https://user-images.githubusercontent.com/78213513/175386789-f54721e5-096c-4a4e-9c28-8f0f10ec43fd.PNG)
 
 
-* Rota Update:
-![getById](https://user-images.githubusercontent.com/78213513/175386789-f54721e5-096c-4a4e-9c28-8f0f10ec43fd.PNG)
+* Rota Create:
+![create](https://user-images.githubusercontent.com/78213513/175406287-1c8138a7-913c-45db-b2fa-fe3fcfa83dba.PNG)
 
+
+* Rota Delete:
+![image](https://user-images.githubusercontent.com/78213513/175406439-355057e0-dada-4c05-b34c-2f743dd40759.png)
